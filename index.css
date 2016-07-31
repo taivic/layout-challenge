@@ -1,0 +1,112 @@
+body{
+  margin: 0px;
+}
+
+header{
+  height: 50px;
+  width: 100%;
+  background-color: #EEEEEE;
+  top: 0;
+  left: 0;
+  right:0;
+  border-bottom: 1px solid #DDDDDD;
+  font-family: "Indie Flower", cursive;
+}
+
+nav{
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.nav-button{
+  display: inline-block;
+  color: darkmagenta;
+}
+
+.logo{
+  display: inline-block;
+  border-radius: 100%;
+  font-wight: 800;
+}
+
+a:hover{
+  color: yellow;
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+}
+
+.search-section {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-section input{
+  width: 400px;
+  height: 30px;
+  border: 1px solid #DDDDDD;
+  line-height: 30px;
+}
+
+.search-section button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listings {
+  padding: 0;
+}
+
+.listing {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.listing-date ,
+.listing-location {
+  color: #999;
+}
+
+.listing-title {
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.fa-star {
+  color: #999;
+  padding-right: 8px;
+}
